@@ -68,7 +68,7 @@ function Header() {
               </>
             
           ) : (
-              <button onClick={() => router.push('/auth/signIn')}>Ingresar</button>
+              <button onClick={() => signIn()}>Sign in</button>
               
               
                 )}
